@@ -1,0 +1,4 @@
+- hosts: pas
+  ignore_errors: true
+  roles:
+     - ansible-hardening
