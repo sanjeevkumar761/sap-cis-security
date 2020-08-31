@@ -1,0 +1,5 @@
+---
+- hosts: hanadb
+  become: true
+  roles:
+    - ./roles/cis_security
