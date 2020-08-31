@@ -1,6 +1,6 @@
 - name: Harden Server
   hosts: sles12vm
   become: yes
-
+  ignore_errors: yes
   roles:
     - SLES12-CIS
